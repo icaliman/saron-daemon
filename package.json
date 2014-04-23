@@ -1,0 +1,24 @@
+{
+  "name": "saron-daemon",
+  "description": "Smart Web Monitor Client",
+  "version": "0.0.1",
+  "homepage": "http://smartwebmonitor.com/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/icaliman/saron-daemon.git"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "coffee-script": "~1.7.1",
+    "browserchannel": "~1.2.0",
+    "primus.io": "~3.1.0",
+    "pty.js": "~0.2.4"
+  },
+  "optionalDependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": "0.10.x"
+  }
+}
