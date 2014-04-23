@@ -20,5 +20,5 @@ socket.send 'auth', { email: conf.auth.email, nodeName: conf.nodeName }, (err, n
 
 initPlugins = () ->
   for p in conf.plugins
-    plugin = require "saron-#{p}-daemon"
+    plugin = require "saron-daemon-#{p}"
     plugin.init conf, primus
