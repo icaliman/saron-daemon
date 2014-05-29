@@ -11,3 +11,16 @@ child.on('exit', function () {
 });
 
 child.start();
+
+
+var child2 = new forever.Monitor('F:\\Programare\\Node.JS\\derby-0.6\\tests\\logs\\index.js', {
+  max: 1,
+  silent: false,
+  options: []
+});
+
+child2.on('exit', function () {
+  console.log('>>>>>>>>>>>>>>>>>> Log generator has exited <<<<<<<<<<<<<<<<<<');
+});
+
+child2.start();
