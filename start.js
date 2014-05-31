@@ -3,7 +3,7 @@ var forever = require('forever-monitor');
 var child = new forever.Monitor('index.js', {
   max: 20,
   silent: false,
-  options: []
+  cwd: __dirname
 });
 
 child.on('exit', function () {
