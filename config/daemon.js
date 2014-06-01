@@ -1,7 +1,8 @@
 module.exports = {
-  nodeName: "application_server",
+  nodeName: "My Laptop",
   auth: {
-    email: "ion.caliman@info.uaic.ro"
+//    email: "ion.caliman@info.uaic.ro"
+    email: "caliman_john@yahoo.com"
   },
   plugins: [
     "terminal",

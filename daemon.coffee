@@ -1,5 +1,5 @@
 Primus = require 'primus.io'
-conf = require('./config/daemon.conf')
+conf = require('./config/daemon')
 Socket = Primus.createSocket({ transformer: 'browserchannel' })
 
 primus = new Socket "http://#{conf.server.host}:#{conf.server.port}"
