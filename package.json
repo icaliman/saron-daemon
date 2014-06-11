@@ -1,8 +1,12 @@
 {
   "name": "saron-daemon",
-  "description": "Smart Web Monitor Client",
+  "description": "Saron Daemon",
   "version": "0.0.1",
-  "homepage": "http://smartwebmonitor.com/",
+  "homepage": "https://github.com/icaliman/saron-daemon",
+  "main": "index.js",
+  "author": {
+    "name": "John Caliman"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/icaliman/saron-daemon.git"
