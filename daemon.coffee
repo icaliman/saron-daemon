@@ -17,7 +17,6 @@ if process.argv.indexOf('-n') != -1
 
 socket.send 'auth', { email: conf.auth.email, nodeName: conf.nodeName }
 
-
 socket.on 'authorized', (err, nodeId) ->
   return console.log("Daemon auth error: ", err) if err
   console.log "Daemon auth: ", nodeId
