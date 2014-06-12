@@ -20,6 +20,7 @@ module.exports = {
   },
   monitoredDrives: ['F', 'E', 'C'], // pe linux va fi '/'
   server: {
+    url: 'http://saron.azurewebsites.net',
     host: '127.0.0.1',
     port: 3000
   }
